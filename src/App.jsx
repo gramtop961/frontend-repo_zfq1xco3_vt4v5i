@@ -7,13 +7,13 @@ import { Phone } from 'lucide-react';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div className="min-h-screen bg-black text-white">
       {/* Simple top nav */}
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur">
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
           <a href="#" className="inline-flex items-center gap-2 font-semibold">
-            <span className="flex h-6 w-6 items-center justify-center rounded-md bg-indigo-500/20">
-              <Phone className="h-4 w-4 text-indigo-300" />
+            <span className="flex h-6 w-6 items-center justify-center rounded-md bg-yellow-400/20">
+              <Phone className="h-4 w-4 text-yellow-300" />
             </span>
             NimbusComm
           </a>
@@ -34,7 +34,7 @@ export default function App() {
       </main>
 
       {/* Footer / CTA */}
-      <footer id="contact" className="border-t border-white/10 bg-slate-950">
+      <footer id="contact" className="border-t border-white/10 bg-black">
         <div className="mx-auto max-w-7xl px-6 py-12">
           <div className="grid gap-8 md:grid-cols-2">
             <div>
@@ -47,16 +47,16 @@ export default function App() {
               <input
                 type="text"
                 placeholder="Full name"
-                className="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm placeholder-white/50 outline-none focus:border-indigo-400/50"
+                className="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm placeholder-white/50 outline-none focus:border-yellow-400/60"
               />
               <input
                 type="email"
                 placeholder="Work email"
-                className="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm placeholder-white/50 outline-none focus:border-indigo-400/50"
+                className="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm placeholder-white/50 outline-none focus:border-yellow-400/60"
               />
               <button
                 type="button"
-                className="rounded-lg bg-indigo-500 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="rounded-lg bg-yellow-400 px-5 py-3 text-sm font-medium text-black transition hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-yellow-300"
               >
                 Request demo
               </button>
